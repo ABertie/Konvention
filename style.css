@@ -26,11 +26,16 @@ p{
     color: var(--dark_color);
 }
 
+ol{
+    padding-left: 45vw;
+}
+
+ol li{
+    text-align: left;
+}
+
 img{
     margin: 10px;
-
-    width: 400px;
-    height: 550px;
 }
 
 div{
