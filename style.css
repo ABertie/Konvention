@@ -1,0 +1,15 @@
+:root{
+    --main_color:#F62F63;
+    --nd_color:#171435;
+    --rd_color:#8F8AC0;
+    --th_color:#FFFFFF;
+    --shadow_1: 2px 2px 4px #000000;
+}
+
+body{
+    background-color: var(--nd_color);
+}
+
+h2{
+    color: var(--main_color);text-shadow: var(--shadow_1);
+}
