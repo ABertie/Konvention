@@ -31,7 +31,7 @@ header {
     --color-button: var(--color-mid);
     
     margin-left: auto;
-    margin-rigth: 2rem;
+    margin-right: 2rem;
   }
   
   .hdr-nav ul {
