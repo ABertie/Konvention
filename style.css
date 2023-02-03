@@ -1,15 +1,22 @@
 :root{
-    --main_color:#F62F63;
-    --nd_color:#171435;
-    --rd_color:#8F8AC0;
-    --th_color:#FFFFFF;
-    --shadow_1: 2px 2px 4px #000000;
+    --brand_color:#F62F63;
+    --dark_color:#171435;
+    --mid_color:#8F8AC0;
+    --light_color:#FFFFFF;
+
+    --shadow: 3px 3px 10px rgba(50,50,50, 0.7);
 }
 
 body{
-    background-color: var(--nd_color);
+    background-color: var(--light_color);
 }
 
 h2{
-    color: var(--main_color);text-shadow: var(--shadow_1);
+    color: var(--brand_color);
+    text-shadow: var(--shadow_1);
+}
+
+p{
+    color: var(--dark_color);
+    text-shadow: var(--shadow);
 }
