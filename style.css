@@ -4,7 +4,13 @@
     --mid_color:#8F8AC0;
     --light_color:#FFFFFF;
 
-    --shadow: 3px 3px 10px rgba(50,50,50, 0.7);
+    --shadow: 2px 2px 5px rgba(50,50,50, 0.4);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -18,5 +24,16 @@ h2{
 
 p{
     color: var(--dark_color);
-    text-shadow: var(--shadow);
 }
+
+img{
+    margin: 10px;
+
+    width: 400px;
+    height: 550px;
+}
+
+div{
+    text-align: center;
+}
+
